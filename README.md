@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Password Generator Application 🔐✨
 
-## Getting Started
+Welcome to the **Password Generator Application**, part of my **30 Days 30 Projects Challenge**. This app allows users to easily generate a secure password by choosing the length and selecting various character types like uppercase letters, lowercase letters, numbers, and symbols. The generated password can be copied to the clipboard with a single click.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Password Length Input**: Users can specify the desired password length (between 8 and 32 characters).
+- **Character Type Selection**: Options to include uppercase letters, lowercase letters, numbers, and symbols in the generated password.
+- **Password Generation**: The app dynamically generates a secure password based on the selected criteria.
+- **Copy to Clipboard**: A button to easily copy the generated password to the clipboard.
+- **Responsive Layout**: The design is fully responsive and works smoothly on both mobile and desktop devices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: A React framework for building full-stack web applications with server-side rendering.
+- **React**: Manages the UI components and state of the application.
+- **Tailwind CSS**: Provides responsive styling with utility-first CSS classes.
+- **shadcn/ui**: A beautiful set of pre-designed components using Tailwind CSS for a polished interface.
+- **Vercel**: The app is deployed on Vercel for fast, reliable hosting and deployment.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Live Demo
 
-## Learn More
+Check out the live demo of the Tip Calculator App on Vercel:
 
-To learn more about Next.js, take a look at the following resources:
+[Live Demo](https://password-generator-xgpl.vercel.app/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Screenshot
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![password-generator](https://github.com/user-attachments/assets/35973acb-4f6d-4b93-a880-5d7935446b09)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
